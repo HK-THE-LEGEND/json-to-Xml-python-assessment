@@ -1,0 +1,10 @@
+[project]
+name = "json2xml"
+version = "0.1.0"
+description = "Convert JSON to typed XML via command line"
+authors = [{ name = "Harikrishnan", email = "Harikrishnan20042022@gmail.com" }]
+requires-python = ">=3.7"
+dependencies = []  # using only stdlib
+
+[project.scripts]
+json2xml = "json2xml.cli:main"
